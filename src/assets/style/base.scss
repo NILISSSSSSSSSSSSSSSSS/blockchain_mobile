@@ -1,0 +1,30 @@
+@import "variable.scss";
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+body, html {
+  font-size: $font-size-x2;
+  line-height: 1.1;
+  font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+  color: $color-black;
+  height: 100%;
+}
+a {
+  color: $color-black;
+}
+.van-nav-bar {
+  color: $color-theme;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.van-nav-bar__left {
+  margin-left: -14px;
+  padding-left: 14px;
+  width: 60px;
+  text-align: left;
+}
